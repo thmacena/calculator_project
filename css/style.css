@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg{
+    background-image: linear-gradient(45deg, #FF978A, #A34437);
+    height: 100vh;
+    color: floralwhite;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.bg a{
+
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+
+}
+ 
+.textMain{
+    font-size: 2em;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: #F07869b3;
+    box-shadow: 10px 10px 10px #000000b9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    padding: 15px;
+
+}
+
+#result{
+    background-color: aliceblue;
+    width: 207px;
+    height: 30px;
+    margin: 15px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px ;
+}
+
+.button, .buttonEqual, .buttonZero{
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    cursor: pointer;
+    background-color:  #27A366b9;
+    border: none;
+    color: black;
+    margin: 5px;
+    vertical-align: text-top;
+    box-shadow: 10px 10px 10px #000000b1;
+    
+}
+/*#69F0AE */
+
+.button:hover{
+    background-color: #69F0AE;
+}
+
+.buttonEqual{
+    height: 106px;
+}
+
+.buttonEqual:hover{
+    background-color: #69F0AE;
+}
+
+.buttonZero{
+    width:108px;
+}
+
+.buttonZero:hover{
+    background-color: #69F0AE;
+}
+
+.button:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.buttonEqual:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.buttonZero:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
